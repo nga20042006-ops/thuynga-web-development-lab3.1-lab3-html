@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Survey - User Info</title>
+</head>
+<body>
+  <h2>User Information</h2>
+  <form method="post" action="http://.../surveytest.php">
+    <p>
+      <label>Full Name (optional):
+        <input type="text" name="fullname" size="30" />
+      </label>
+    </p>
+    <p>Gender:<br/>
+      <label><input type="radio" name="gender" value="Male" /> Male</label>
+      <label><input type="radio" name="gender" value="Female" /> Female</label>
+    </p>
+    <p>Degree Program:
+      <select name="program">
+        <option value="IT">IT</option>
+        <option value="Finance">Finance</option>
+        <option value="Design">Design</option>
+      </select>
+    </p>
+    <p>
+      <input type="submit" value="Submit" />
+      <a href="survey01.html">Previous</a> |
+      <a href="survey03.html">Next</a>
+    </p>
+  </form>
+</body>
+</html>
